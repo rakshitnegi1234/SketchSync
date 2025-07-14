@@ -8,7 +8,7 @@ import { ToastContainer, toast } from "react-toastify";
 const socket = io("https://sketchsync-1.onrender.com", {
   transports: ["websocket"],
 });
-const server = "https://sketchsync-1.onrender.com";  
+const server = "https://sketchsync-3001.onrender.com";  
 const connectionOptions = {
   "force new connection": true,
   reconnectionAttempts: "Infinity",
