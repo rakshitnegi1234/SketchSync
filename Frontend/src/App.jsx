@@ -5,8 +5,10 @@ import RoomPage from "./Pages/RoomPage/index.jsx";
 import io from "socket.io-client";
 import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
-
-const server = "https://sketchsync-3000.onrender.com";
+const socket = io("https://sketchsync-1.onrender.com", {
+  transports: ["websocket"],
+});
+const server = "https://sketchsync-1.onrender.com"; 
 const connectionOptions = {
   "force new connection": true,
   reconnectionAttempts: "Infinity",
