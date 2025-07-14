@@ -12,7 +12,7 @@ const port = process.env.PORT || 5000;
 const server = createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://sketchsync-3000.onrender.com",
+    origin: "https://sketchsync-1.onrender.com",
   },
 });
 
