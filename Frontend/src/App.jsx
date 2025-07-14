@@ -6,7 +6,7 @@ import io from "socket.io-client";
 import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 
-const server = "https://sketchsync-1.onrender.com";
+const server = "https://sketchsync-3000.onrender.com";
 const connectionOptions = {
   "force new connection": true,
   reconnectionAttempts: "Infinity",
